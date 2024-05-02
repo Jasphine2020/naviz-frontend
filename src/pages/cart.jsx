@@ -13,7 +13,7 @@ export const Cart = () => {
 
     useEffect(() => {
         async function sendOrder() {
-            const response = await axios.post('http://127.0.0.1:8000/orders', orders)
+            const response = await axios.post('https://naviz-backend-jv5x.onrender.com/orders', orders)
         }
         sendOrder()
     }, [orders])
