@@ -1,0 +1,1528 @@
+*{
+    font-family: sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*########################## FONT SIZES ###########################*/
+
+[class *= 'f1']{
+    font-size: 10%;
+}
+
+[class *= 'f2']{
+    font-size: 20%;
+}
+[class *= 'f3']{
+    font-size: 30%;
+}
+[class *= 'f4']{
+    font-size: 40%;
+}
+[class *= 'f5']{
+    font-size: 50%;
+}
+[class *= 'f6']{
+    font-size: 60%;
+}
+[class *= 'f7']{
+    font-size: 70%;
+}
+[class *= 'f8']{
+    font-size: 80%;
+}
+
+[class *= 'f9']{
+    font-size: 90%;
+}
+
+[class *= 'f10']{
+    font-size: 100%;
+}
+
+[class *= 'f11']{
+    font-size: 110%;
+}
+
+[class *= 'f12']{
+    font-size: 120%;
+}
+
+[class *= 'f13']{
+    font-size: 130%;
+}
+
+[class *= 'f14']{
+    font-size: 140%;
+}
+
+[class *= 'f15']{
+    font-size: 150%;
+}
+
+[class *= 'f16']{
+    font-size: 160%;
+}
+
+[class *= 'f17']{
+    font-size: 170%;
+}
+
+[class *= 'f18']{
+    font-size: 180%;
+}
+
+[class *= 'f19']{
+    font-size: 190%;
+}
+
+[class *= 'f20']{
+    font-size: 200%;
+}
+
+[class *= 'f21']{
+    font-size: 210%;
+}
+
+[class *= 'f22']{
+    font-size: 220%;
+}
+
+[class *= 'f23']{
+    font-size: 230%;
+}
+
+[class *= 'f24']{
+    font-size: 240%;
+}
+
+[class *= 'f25']{
+    font-size: 250%;
+}
+
+[class *= 'f26']{
+    font-size: 260%;
+}
+
+[class *= 'f7']{
+    font-size: 270%;
+}
+
+[class *= 'f28']{
+    font-size: 280%;
+}
+
+[class *= 'f29']{
+    font-size: 290%;
+}
+
+[class *= 'f30']{
+    font-size: 300%;
+}
+
+[class *= 'f31']{
+    font-size: 310%;
+}
+
+[class *= 'f32']{
+    font-size: 320%;
+}
+
+[class *= 'f33']{
+    font-size: 330%;
+}
+
+[class *= 'f34']{
+    font-size: 340%;
+}
+
+[class *= 'f35']{
+    font-size: 350%;
+}
+
+[class *= 'f36']{
+    font-size: 360%;
+}
+
+/*######################## TEXT ALIGNMENT ####################*/
+
+.center{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+/*######################## FONT WEIGHT ####################*/
+
+[class *= 'bold']{
+    font-weight: bold;
+}
+
+[class *= 'bolder']{
+    font-weight: bolder;
+}
+
+[class *= 'lighter']{
+    font-weight: lighter;
+}
+
+/*######################## FONT FAMILY ####################*/
+
+[class *= 'serif']{
+    font-family: serif;
+}
+
+[class *= 'sans']{
+    font-family: sans-serif;
+}
+
+[class *= 'mono']{
+    font-family: monospace;
+}
+
+[class *= 'cursive']{
+    font-family: cursive;
+}
+
+/*######################## FONT STYLE ####################*/
+
+[class *= 'italic']{
+    font-style: italic;
+}
+
+[class *= 'oblique']{
+    font-style: oblique;
+}
+
+/*######################## TEXT TRANSFORM ####################*/
+
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+.caps{
+    text-transform: capitalize;
+}
+
+/*######################## TEXT DECORATION ####################*/
+
+.no-deco{
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.crossed{
+    text-decoration: line-through;
+}
+
+.wavy{
+    text-decoration: wavy;
+}
+
+.solid{
+    text-decoration: solid;
+}
+
+.dotted{
+    text-decoration: dotted;
+}
+
+.dashed{
+    text-decoration: dashed;
+}
+
+/*########################## FOREGROUND COLORS ###########################*/
+
+.red-fg{
+    color: red;
+}
+
+.green-fg{
+    color: green;
+}
+
+.blue-fg{
+    color: blue;
+}
+
+.black-fg{
+    color: black;
+}
+
+.white-fg{
+    color: white;
+}
+
+.cyan-fg{
+    color: cyan;
+}
+
+.magenta-fg{
+    color: magenta;
+}
+
+.purple-fg{
+    color: purple;
+}
+
+.orange-fg{
+    color: orange;
+}
+
+.pink-fg{
+    color: pink;
+}
+
+.yellow-fg{
+    color: yellow;
+}
+
+.gray-fg{
+    color: gray;
+}
+
+.grey-fg{
+    color: grey;
+}
+
+.aqua-fg{
+    color: aqua;
+}
+
+.brown-fg{
+    color: brown;
+}
+
+.violet-fg{
+    color: violet;
+}
+
+.coral-fg{
+    color: coral;
+}
+
+.crimson-fg{
+    color: crimson;
+}
+
+.coral-fg{
+    color: coral;
+}
+
+.gold-fg{
+    color: gold;
+}
+
+.apple-fg{
+    color: rgb(173, 255, 47);
+}
+
+.indigo-fg{
+    color: indigo;
+}
+
+/*########################## BACKGROUND COLORS ###########################*/
+
+.red-bg{
+    background-color: red;
+}
+
+.green-bg{
+    background-color: green;
+}
+
+.blue-bg{
+    background-color: blue;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.white-bg{
+    background-color: white;
+}
+
+.cyan-bg{
+    background-color: cyan;
+}
+
+.magenta-bg{
+    background-color: magenta;
+}
+
+.purple-bg{
+    background-color: purple;
+}
+
+.orange-bg{
+    background-color: orange;
+}
+
+.pink-bg{
+    background-color: pink;
+}
+
+.yellow-bg{
+    background-color: yellow;
+}
+
+.gray-bg{
+    background-color: gray;
+}
+
+.grey-bg{
+    background-color: grey;
+}
+
+.aqua-bg{
+    background-color: aqua;
+}
+
+.brown-bg{
+    background-color: brown;
+}
+
+.violet-bg{
+    background-color: violet;
+}
+
+.coral-bg{
+    background-color: coral;
+}
+
+.crimson-bg{
+    background-color: crimson;
+}
+
+.coral-bg{
+    background-color: coral;
+}
+
+.gold-bg{
+    background-color: gold;
+}
+
+.apple-bg{
+    background-color: rgb(173, 255, 47);
+}
+
+.indigo-bg{
+    background-color: indigo;
+}
+
+/*########################## OBECT PADDING ###########################*/
+
+.p{
+    padding: 4px;
+}
+
+.p2{
+    padding: 2px;
+}
+
+.p4{
+    padding: 4px;
+}
+
+.p6{
+    padding: 6px;
+}
+
+.p8{
+    padding: 8px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.p12{
+    padding: 12px;  
+}
+
+.p14{
+    padding: 14px;
+}
+
+.p15{
+    padding: 15px;
+}
+
+.p16{
+    padding: 16px;
+}
+
+.p18{
+    padding: 16px;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.p22{
+    padding: 22px;
+}
+
+.p24{
+    padding: 24px;
+}
+
+.p26{
+    padding: 26px;
+}
+
+.p28{
+    padding: 28px;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.p32{
+    padding: 32px;
+}
+
+.p34{
+    padding: 34px;
+}
+
+.p36{
+    padding: 36px;
+}
+
+/*########################## OBECT PADDING WIDE ###########################*/
+
+.p-w{
+    padding: 0 4px;
+}
+
+.p2-w{
+    padding: 0 2px;
+}
+
+.p4-w{
+    padding: 0 4px;
+}
+
+.p6-w{
+    padding: 0 6px;
+}
+
+.p8-w{
+    padding: 8px;
+}
+
+.p10-w{
+    padding: 0 10px;
+}
+
+.p12-w{
+    padding: 0 12px;
+}
+
+.p14-w{
+    padding: 0 14px;
+}
+
+.pad16-w{
+    padding: 0 16px;
+}
+
+.p18-w{
+    padding: 0 18px;
+}
+
+.p20-w{
+    padding: 0 20px;
+}
+
+.p22-w{
+    padding: 0 22px;
+}
+
+.p24-w{
+    padding: 0 24px;
+}
+
+.p26-w{
+    padding: 0 26px;
+}
+
+.p28-w{
+    padding: 0 28px;
+}
+
+.p30-w{
+    padding: 0 30px;
+}
+
+.p32-w{
+    padding: 0 32px;
+}
+
+.p34-w{
+    padding: 0 34px;
+}
+
+.p36-w{
+    padding: 0 36px;
+}
+
+/*##################################### OBECT PADDING HIGH ########################*/
+.p-h{
+    padding: 4px 0;
+}
+
+.p2-h{
+    padding: 2px 0;
+}
+
+.p4-h{
+    padding: 4px 0;
+}
+
+.p5-h{
+    padding: 5px 0;
+}
+
+.p6-h{
+    padding: 6px 0;
+}
+
+.p8-h{
+    padding: 8px 0;
+}
+
+.p10-h{
+    padding: 10px 0;
+}
+
+.p12-h{
+    padding: 12px 0;
+}
+
+.p14-h{
+    padding: 14px 0;
+}
+
+.p16-h{
+    padding: 16px 0;
+}
+
+.p18-h{
+    padding: 18px 0;
+}
+
+.p20-h{
+    padding: 20px 0;
+}
+
+.p22-h{
+    padding: 22px 0;
+}
+
+.p24-h{
+    padding: 24px 0;
+}
+
+.p26-h{
+    padding: 26px 0;
+}
+
+.p28-h{
+    padding: 28px 0;
+}
+
+.p30-h{
+    padding: 30px 0;
+}
+
+.p32-h{
+    padding: 32px 0;
+}
+
+.p34-h{
+    padding: 34px 0;
+}
+
+.p36-h{
+    padding: 36px 0;
+}
+
+/*######################################*/
+
+/*########################## OBECT MARGIN ###########################*/
+
+.m-auto{
+    margin: auto;
+}
+
+.m2{
+    margin: 2px;
+}
+
+.m4{
+    margin: 4px;
+}
+
+.m6{
+    margin: 6px;
+}
+
+.m8{
+    margin: 8px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.m12{
+    margin: 12px;
+}
+
+.m14{
+    margin: 14px;
+}
+
+.m16{
+    margin: 16px;
+}
+
+.m18{
+    margin: 16px;
+}
+
+.m20{
+    margin: 20px;
+}
+
+.m22{
+    margin: 22px;
+}
+
+.m24{
+    margin: 24px;
+}
+
+.m26{
+    margin: 26px;
+}
+
+.m28{
+    margin: 28px;
+}
+
+.m30{
+    margin: 30px;
+}
+
+.m32{
+    margin: 32px;
+}
+
+.m34{
+    margin: 34px;
+}
+
+.m36{
+    margin: 36px;
+}
+
+/*########################## OBECT MARGIN WIDE ###########################*/
+
+.m-w{
+    margin: 0 4px;
+}
+
+.m2-w{
+    margin: 0 2px;
+}
+
+.m4-w{
+    margin: 0 4px;
+}
+
+.m6-w{
+    margin: 0 6px;
+}
+
+.m8-w{
+    margin: 8px;
+}
+
+.m10-w{
+    margin: 0 10px;
+}
+
+.m12-w{
+    margin: 0 12px;
+}
+
+.m14-w{
+    margin: 0 14px;
+}
+
+.mad16-w{
+    margin: 0 16px;
+}
+
+.m18-w{
+    margin: 0 18px;
+}
+
+.m20-w{
+    margin: 0 20px;
+}
+
+.m22-w{
+    margin: 0 22px;
+}
+
+.m24-w{
+    margin: 0 24px;
+}
+
+.m26-w{
+    margin: 0 26px;
+}
+
+.m28-w{
+    margin: 0 28px;
+}
+
+.m30-w{
+    margin: 0 30px;
+}
+
+.m32-w{
+    margin: 0 32px;
+}
+
+.m34-w{
+    margin: 0 34px;
+}
+
+.m36-w{
+    margin: 0 36px;
+}
+
+/*##################################### OBECT MARGIN HIGH ########################*/
+.m-h{
+    margin: 4px 0;
+}
+
+.m2-h{
+    margin: 2px 0;
+}
+
+.m4-h{
+    margin: 4px 0;
+}
+
+.m5-h{
+    margin: 5px 0;
+}
+
+.m6-h{
+    margin: 6px 0;
+}
+
+.m8-h{
+    margin: 8px 0;
+}
+
+.m10-h{
+    margin: 10px 0;
+}
+
+.m12-h{
+    margin: 12px 0;
+}
+
+.m14-h{
+    margin: 14px 0;
+}
+
+.m16-h{
+    margin: 16px 0;
+}
+
+.m18-h{
+    margin: 18px 0;
+}
+
+.m20-h{
+    margin: 20px 0;
+}
+
+.m22-h{
+    margin: 22px 0;
+}
+
+.m24-h{
+    margin: 24px 0;
+}
+
+.m26-h{
+    margin: 26px 0;
+}
+
+.m28-h{
+    margin: 28px 0;
+}
+
+.m30-h{
+    margin: 30px 0;
+}
+
+.m32-h{
+    margin: 32px 0;
+}
+
+.m34-h{
+    margin: 34px 0;
+}
+
+.m36-h{
+    margin: 36px 0;
+}
+
+/*########################### OBJECT BORDERS ##########################*/
+
+
+/*################# ALL BORDERS ################*/
+.b1{
+    border: 1px  black;
+}
+
+.b2{
+    border: 2px  black;
+}
+.b3{
+    border: 3px  black;
+}
+.b4{
+    border: 4px  black;
+}
+.b5{
+    border: 5px  black;
+}
+.b6{
+    border: 6px  black;
+}
+.b7{
+    border: 7px  black;
+}
+.b8{
+    border: 8px  black;
+}
+
+.b9{
+    border: 9px  black;
+}
+
+.b10{
+    border: 10px  black;
+}
+
+/*################# LEFT BORDERS  ################*/
+.b1-l{
+    border-left: 1px  black;
+}
+
+.b2-l{
+    border-left: 2px  black;
+}
+.b3-l{
+    border-left: 3px  black;
+}
+.b4-l{
+    border-left: 4px  black;
+}
+.b5-l{
+    border-left: 5px  black;
+}
+.b6-l{
+    border-left: 6px  black;
+}
+.b7-l{
+    border-left: 7px  black;
+}
+.b8-l{
+    border-left: 8px  black;
+}
+
+.b9-l{
+    border-left: 9px  black;
+}
+
+.b10-l{
+    border-left: 10px  black;
+}
+
+/*################# RIGHT BORDERS  ################*/
+.b1-r{
+    border-right: 1px  black;
+}
+
+.b2-r{
+    border-right: 2px  black;
+}
+.b3-r{
+    border-right: 3px  black;
+}
+.b4-r{
+    border-right: 4px  black;
+}
+.b5-r{
+    border-right: 5px  black;
+}
+.b6-r{
+    border-right: 6px  black;
+}
+.b7-r{
+    border-right: 7px  black;
+}
+.b8-r{
+    border-right: 8px  black;
+}
+
+.b9-r{
+    border-right: 9px  black;
+}
+
+.b10-r{
+    border-right: 10px  black;
+}
+
+/*################# top BORDERS  ################*/
+.b1-t{
+    border-top: 1px  black;
+}
+
+.b2-t{
+    border-top: 2px  black;
+}
+.b3-t{
+    border-top: 3px  black;
+}
+.b4-t{
+    border-top: 4px  black;
+}
+.b5-t{
+    border-top: 5px  black;
+}
+.b6-t{
+    border-top: 6px  black;
+}
+.b7-t{
+    border-top: 7px  black;
+}
+.b8-t{
+    border-top: 8px  black;
+}
+
+.b9-t{
+    border-top: 9px  black;
+}
+
+.b10-t{
+    border-top: 10px  black;
+}
+
+/*################# BOTTOM BORDERS  ################*/
+.b1-b{
+    border-bottom: 1px  black;
+}
+
+.b2-b{
+    border-bottom: 2px  black;
+}
+.b3-b{
+    border-bottom: 3px  black;
+}
+.b4-b{
+    border-bottom: 4px  black;
+}
+.b5-b{
+    border-bottom: 5px  black;
+}
+.b6-b{
+    border-bottom: 6px  black;
+}
+.b7-b{
+    border-bottom: 7px  black;
+}
+.b8-b{
+    border-bottom: 8px  black;
+}
+
+.b9-b{
+    border-bottom: 9px  black;
+}
+
+.b10-b{
+    border-bottom: 10px  black;
+}
+
+/*################# SOLID ################*/
+
+[class *= 'solid']{
+    border-style: solid;
+}
+
+/*################# DOTTED ################*/
+
+[class *= 'dotted']{
+    border-style: dotted;
+}
+
+/*################# DASHED ################*/
+
+[class *= 'dashed']{
+    border-style: dashed;
+}
+
+/*################# DOUBLE ################*/
+
+[class *= 'double']{
+    border-style:double;
+}
+
+/*################# GROOVED ################*/
+
+[class *= 'groove']{
+    border-style: groove;
+}
+
+/*################# RIDGED ################*/
+
+[class *= 'ridge']{
+    border-style: ridge;
+}
+
+/*########################### OBJECT BORDER RADIUS ##########################*/
+
+.round-s{
+    border-radius: 3px;
+}
+
+.round-m{
+    border-radius: 10px;
+}
+
+.round-l{
+    border-radius: 16px;
+}
+
+.round{
+    border-radius: 32px;
+}
+
+.circle{
+    border-radius: 100px;
+}
+
+/*######################### BORDER COLOR #############################*/
+
+.b-red{
+    border-color: red;
+}
+
+.b-green{
+    border-color: green;
+}
+
+.b-blue{
+    border-color: blue;
+}
+
+.b-black{
+    border-color: black;
+}
+
+.b-white{
+    border-color: white;
+}
+
+.b-cyan{
+    border-color: cyan;
+}
+
+.b-magenta{
+    border-color: magenta;
+}
+
+.b-purple{
+    border-color: purple;
+}
+
+.b-orange{
+    border-color: orange;
+}
+
+.b-pink{
+    border-color: pink;
+}
+
+.b-yellow{
+    border-color: yellow;
+}
+
+.b-gray{
+    border-color: gray;
+}
+
+.b-grey{
+    border-color: grey;
+}
+
+.b-aqua{
+    border-color: aqua;
+}
+
+.b-brown{
+    border-color: brown;
+}
+
+.b-violet{
+    border-color: violet;
+}
+
+.b-coral{
+    border-color: coral;
+}
+
+.b-crimson{
+    border-color: crimson;
+}
+
+.b-coral{
+    border-color: coral;
+}
+
+.b-gold{
+    border-color: gold;
+}
+
+.b-apple{
+    border-color: rgb(173, 255, 47);
+}
+
+.b-indigo{
+    border-color: indigo;
+}
+
+/*################################### LIST STYLES ###########################*/
+
+.elipse{
+    list-style: circle;
+}
+
+.disc{
+    list-style: disc;
+}
+
+.square{
+    list-style: square;
+}
+
+.decimal{
+    list-style: decimal;
+}
+
+.decimal0{
+    list-style: decimal-leading-zero;
+}
+
+.upper-roman{
+    list-style: upper-roman;
+}
+
+.lower-roman{
+    list-style: lower-roman;
+}
+
+.greek{
+    list-style: lower-greek;
+}
+
+.upper-latin{
+    list-style: upper-latin;
+}
+
+.lower-latin{
+    list-style: lower-latin;
+}
+
+.lower-alpha{
+    list-style: lower-alpha;
+}
+
+.upper-alpha{
+    list-style: upper-alpha;
+}
+
+.no-marker{
+    list-style-type: none;
+}
+
+.mark-in{
+    list-style-position: inside;
+}
+
+.mark-out{
+    list-style-position: outside;
+}
+
+/*################################# TABLE STYLES ##########################*/
+
+.collapse{
+    border-collapse: collapse;
+}
+
+.stripped:nth-child(even){
+    background-color: green;
+}
+
+/*########################## WIDTH ###########################*/
+.w-full, .w-half, .w-third, .w-quater, .w-fifth, .w2-3, .w3-4, .w4-5{
+    box-sizing: border-box;
+}
+.b-box{
+    box-sizing: border-box;
+}
+
+.w-screen{
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.w-full{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.w-half{
+    width: 45%;
+}
+
+.w-third{
+    width: 33%;
+}
+
+.w-quater{
+    width: 25%;
+}
+
+.w-fifth{
+    width: 20%;
+}
+
+.w2-3{
+    width: 66%;
+}
+
+.w3-4{
+    width: 75%;
+}
+
+.w4-5{
+    width: 80%;
+}
+
+.w-min100{
+    min-width: 100px;
+}
+
+.w-min200{
+    min-width: 200px;
+}
+
+
+.w-min300{
+    min-width: 300px;
+}
+
+.w-min400{
+    min-width: 400px;
+}
+
+.w-min500{
+    min-width: 500px;
+}
+
+.w-min600{
+    min-width: 600px;
+}
+
+.w-min700{
+    min-width: 700px;
+}
+
+.w-min800{
+    min-width: 800px;
+}
+
+.w-min900{
+    min-width: 900px;
+}
+
+.w-min1000{
+    min-width: 1000px;
+}
+
+/*########################## FLEX CONTAINER ###########################*/
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-between{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-around{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-even{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.justify-left{
+    justify-content: left;
+}
+
+.justify-right{
+    justify-content: right;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-left{
+    align-content: left;
+}
+
+.align-right{
+    align-content: right;
+}
+
+.align-center{
+    justify-content: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/*########################## DISPLAY ###########################*/
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.inline{
+    display: inline;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.inline-table{
+    display: inline-table;
+}
+
+.inline-flexbox{
+    display: inline-flexbox;
+}
+/*################################### OVERFLOW SCROLL AREAS ######################*/
+
+.scrollx{
+    overflow-x: scroll;
+}
+
+.scrolly{
+    overflow-y: scroll;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+/*################################### POSITIONS ######################*/
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.sticky{
+    position: sticky;
+}
+
+.fixed{
+    position: fixed;
+}
+
+/*################################### CURSORS ######################*/
+
+.pointer{
+    cursor: pointer;
+}
