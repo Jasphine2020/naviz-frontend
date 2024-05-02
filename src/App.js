@@ -31,7 +31,7 @@ function App() {
 
   useEffect(() => {
     async function fetchProducts() {
-      const response = await axios.get('http://127.0.0.1:8000/')
+      const response = await axios.get('https://naviz-backend-jv5x.onrender.com/')
       setAll(response.data.products)
 
       var sodas = [];
