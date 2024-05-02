@@ -22,7 +22,7 @@ export const ProductGrid = () => {
                 products.map((item) => (
                     <div className="w-quater m10 relative w-min300" key={item.id}>
                         <img className="w-full"
-                            src={'http://127.0.0.1:8000/images/'+item.image}
+                            src={'https://naviz-backend-jv5x.onrender.com/images/'+item.image}
                             alt="feature image">
                         </img>
 
