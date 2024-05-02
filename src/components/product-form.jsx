@@ -23,7 +23,7 @@ export const ProductForm = () => {
         console.log(price)
 
 
-        const response = await axios.post('http://127.0.0.1:8000/products', formData, { headers: { 'Content-Type': 'multipart/form-data' } })
+        const response = await axios.post('https://naviz-backend-jv5x.onrender.com/products', formData, { headers: { 'Content-Type': 'multipart/form-data' } })
         console.log(response.data)
         setName('')
         setSpecs('')
